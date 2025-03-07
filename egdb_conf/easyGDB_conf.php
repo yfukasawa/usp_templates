@@ -1,7 +1,7 @@
 <?php
 // File paths
 $root_path = "/var/www/html"; //use absolute path
-$egdb_files_folder = "USP/templates/egdb_files/";
+$egdb_files_folder = "usp_templates";
 
 $easy_gdb_path = "$root_path/easy_gdb";
 $images_path = "/$egdb_files_folder/egdb_images";
@@ -26,11 +26,12 @@ $passport_path = "$root_path/passport/example";
 $phenotype_imgs_path = "$images_path/descriptors_imgs";
 
 //Site title, site logo and header image
-$dbTitle = "Easy GDB";
-$db_logo = "egdb_logo.png";
+$dbTitle = "Utsunomiya University Strawberry Project Database";
+$db_logo = "logo.jpg";
 
 // Select 0 to disable the header image, or provide an image filename to display it.
-$header_img = "header_img.png";
+$header_img = "header.jpg";
+
 
 //SWITCHES
 
@@ -44,21 +45,21 @@ $file_database = 1;
 $rm_jb_frame = 1;
 
 // Toolbar
-$tb_custom = 0;
-$tb_rm_home = 0;
+$tb_custom     = 0;
+$tb_rm_home    = 0;
 
-$tb_about = 1;
-$tb_downloads = 1;
-$tb_species = 1;
+$tb_about      = 0;
+$tb_downloads  = 1;
+$tb_species    = 0;
 $tb_search_box = 0;
 
-$tb_tools = 1;
-$tb_search = 1;
-$tb_blast = 1;
-$tb_jbrowse = 1;
-$tb_seq_ext = 1;
-$tb_annot_ext = 1;
-$tb_lookup = 1;
+$tb_tools      = 1;
+$tb_search     = 0;
+$tb_blast      = 0;
+$tb_jbrowse    = 1;
+$tb_seq_ext    = 0;
+$tb_annot_ext  = 0;
+$tb_lookup     = 0;
 $tb_enrichment = 0;
 
 //Gene expression atlas
@@ -106,9 +107,9 @@ $ranges=[[0,0.99],[1,1.99],[2,4.99],[5,9.99],[10,49.99],[50,99.99],[100,199.99],
 
 
 // Passport
-$tb_passport = 1;
-$show_map = 1;
-$show_qr = 1;
+$tb_passport = 0;
+$show_map    = 0;
+$show_qr     = 0;
 
 //Gene examples
 $gene_sample = "";
