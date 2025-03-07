@@ -1,20 +1,8 @@
 {
   "logos":
     [
-      { "image":"logo1.png",
-        "link":"https://www.google.com/",
-        "height":"60"
-      },
-      { "image":"logo2.png",
-        "link":"https://www.google.com/",
-        "height":"60"
-      },
-      { "image":"logo3.png",
-        "link":"https://www.google.com/",
-        "height":"60"
-      },
-      { "image":"logo4.png",
-        "link":"https://www.google.com/",
+      { "image":"logo.jpg",
+        "link":"https://c-bio.mine.utsunomiya-u.ac.jp/wild-strawberry-eng/",
         "height":"60"
       }
     ]

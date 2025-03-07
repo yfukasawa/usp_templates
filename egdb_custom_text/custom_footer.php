@@ -13,5 +13,5 @@
 ?>
 <br>
 <p style="display:inline; margin-bottom:0px">
-  Write your own text here.
+  Copyright © Utsunomiya University Strawberry Project All Rights Reserved.
 </p>
